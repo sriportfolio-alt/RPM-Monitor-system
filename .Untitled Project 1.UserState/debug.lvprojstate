@@ -1,0 +1,21 @@
+<Configuration>
+  <Target name="My Computer">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="DC power supply monitor.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="163"/>
+          <SignalUID value="928"/>
+          <SignalUID value="185"/>
+          <SignalUID value="178"/>
+        </Generic>
+      </Probes>
+    </VI>
+  </Target>
+</Configuration>
